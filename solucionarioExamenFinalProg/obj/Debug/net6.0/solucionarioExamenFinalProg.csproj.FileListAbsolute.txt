@@ -1,0 +1,14 @@
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.AssemblyInfoInputs.cache
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.AssemblyInfo.cs
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.csproj.CoreCompileInputs.cache
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.exe
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.deps.json
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.runtimeconfig.json
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.dll
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.pdb
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.dll
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\refint\solucionarioExamenFinalProg.dll
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.pdb
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.genruntimeconfig.cache
+C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\ref\solucionarioExamenFinalProg.dll
