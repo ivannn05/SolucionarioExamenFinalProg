@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("solucionarioExamenFinalProg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61b8d14987654733f4e41dbae711e77e4d4db2c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f198a234b6a1070df0c4ebd636e91557731e1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("solucionarioExamenFinalProg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("solucionarioExamenFinalProg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

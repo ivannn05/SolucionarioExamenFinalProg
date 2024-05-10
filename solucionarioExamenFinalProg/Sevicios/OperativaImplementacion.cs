@@ -44,20 +44,22 @@ namespace solucionarioExamenFinalProg.Sevicios
         {
             string dniUsu = validacionDeDNI();
             DateTime fechaHoy = DateTime.Today;
-            foreach (UsuarioDto usuario in Program.listaUsuarios)
+            bool aux=false;
+            foreach (CitasDto cita in Program.listaCitas)
             {
-                if (usuario.Dni.Equals(dniUsu) & (usuario.FechaCita.Day == fechaHoy.Day & usuario.FechaCita.Month == fechaHoy.Month & usuario.FechaCita.Year == fechaHoy.Year))
+                if (cita.Dni.Equals(dniUsu) & (cita.FechaCita.Day == fechaHoy.Day & cita.FechaCita.Month == fechaHoy.Month & cita.FechaCita.Year == fechaHoy.Year))
                 {
-                    Console.WriteLine($"Espere su turno para la consulta de {usuario.Especialidad} en la sala de espera. Su especialista le avisará.");
-                    continue;
+                    Console.WriteLine($"Espere su turno para la consulta de {cita.Especialidad} en la sala de espera. Su especialista le avisará.");
+                   aux = true;
+                    break;
                 }
-                if (!(usuario.Dni.Equals(dniUsu)) && (usuario.FechaCita.Day == fechaHoy.Day & usuario.FechaCita.Month == fechaHoy.Month & usuario.FechaCita.Year == fechaHoy.Year))
-                {
-                    Console.WriteLine("No dispone de ninguna cita previa para hoy");
-                }
+               
 
             }
-
+            if (aux== false)
+            {
+                Console.WriteLine("No dispone de ninguna cita previa para hoy");
+            }
         }
 
         public void mostrarConsultas()
@@ -70,7 +72,7 @@ namespace solucionarioExamenFinalProg.Sevicios
 
 
 
-            foreach (UsuarioDto consulta in Program.listaUsuarios)
+            foreach (CitasDto consulta in Program.listaCitas)
             {
                 if (consulta.FechaCita.Day == fechaUsu.Day & consulta.FechaCita.Month == fechaUsu.Month & consulta.FechaCita.Year == fechaUsu.Year)
                 {

@@ -5,7 +5,7 @@ namespace solucionarioExamenFinalProg.Controladores
 {
     class Program
     {
-        public static List<UsuarioDto> listaUsuarios = new List<UsuarioDto>();
+        public static List<CitasDto> listaCitas = new List<CitasDto>();
         public static void Main(string[] args)
         {
             MenuInterfaz mi = new MenuImplementacion();
@@ -59,7 +59,9 @@ namespace solucionarioExamenFinalProg.Controladores
                     }
                 }
             }
-            catch(Exception ex) { Console.WriteLine("Ocurrio un problema en la aplicación"); }
+            catch(Exception ex) { Console.WriteLine("Ocurrio un problema en la aplicación");
+                fi.ficheroLog("Ocurrio un problema en la aplicación");
+            }
         }
     }
 }

@@ -91,17 +91,17 @@ namespace solucionarioExamenFinalProg.Sevicios
                 case 1:
                     Console.WriteLine("\tAccedio a Psicología");
                     fi.ficheroLog("Accedio a Psicología");
-                    mostrarMenuConsultas();
+                    op.mostrarConsultas();
                     break;
                 case 2:
                     Console.WriteLine("\tAccedio a Traumatología");
                     fi.ficheroLog("Accedio a Traumatología");
-                    mostrarMenuConsultas();
+                    op.mostrarConsultas();
                     break;
                 case 3:
                     Console.WriteLine("\tAccedio a Fsioterapia");
                     fi.ficheroLog("Accedio a Fsioterapia");
-                    mostrarMenuConsultas();
+                    op.mostrarConsultas();
                     break;
                 default:
                     Console.WriteLine("\tEsta opcion no existe");

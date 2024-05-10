@@ -12,3 +12,18 @@ C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\soluc
 C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.pdb
 C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.genruntimeconfig.cache
 C:\Users\IVAN IMFORMATICA\Desktop\programacion\solucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\ref\solucionarioExamenFinalProg.dll
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.AssemblyInfoInputs.cache
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.AssemblyInfo.cs
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.csproj.CoreCompileInputs.cache
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.sourcelink.json
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.dll
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\refint\solucionarioExamenFinalProg.dll
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.pdb
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.exe
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.deps.json
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.runtimeconfig.json
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.dll
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\bin\Debug\net6.0\solucionarioExamenFinalProg.pdb
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\solucionarioExamenFinalProg.genruntimeconfig.cache
+C:\Users\csi23-iloposa\Source\Repos\ivannn05\SolucionarioExamenFinalProg\solucionarioExamenFinalProg\obj\Debug\net6.0\ref\solucionarioExamenFinalProg.dll

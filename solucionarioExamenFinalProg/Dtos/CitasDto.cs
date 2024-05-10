@@ -9,10 +9,10 @@ namespace solucionarioExamenFinalProg.Dtos
     /// <summary>
     /// Clase Dto la cual contiene los campos donde contendra los datos de los usuarios
     /// </summary>
-    internal class UsuarioDto
+    internal class CitasDto
     {
         //Campos
-        long idUsuario;
+        long id;
         string dni = "aaaa";
         string nombre = "aaaa";
         string apellidos = "aaaa";
@@ -20,13 +20,13 @@ namespace solucionarioExamenFinalProg.Dtos
         DateTime fechaCita = DateTime.Now;
         bool asistenciaCita=false;
         //Constructores
-        public UsuarioDto()
+        public CitasDto()
         {
         }
 
-        public UsuarioDto(long idUsuario, string dni, string nombre, string apellidos, string especialidad, DateTime fechaCita, bool asistenciaCita)
+        public CitasDto(long id, string dni, string nombre, string apellidos, string especialidad, DateTime fechaCita, bool asistenciaCita)
         {
-            this.IdUsuario = idUsuario;
+            this.id = id;
             this.dni = dni;
             this.nombre = nombre;
             this.apellidos = apellidos;
@@ -41,6 +41,6 @@ namespace solucionarioExamenFinalProg.Dtos
         public string Especialidad { get => especialidad; set => especialidad = value; }
         public DateTime FechaCita { get => fechaCita; set => fechaCita = value; }
         public bool AsistenciaCita { get => asistenciaCita; set => asistenciaCita = value; }
-        public long IdUsuario { get => idUsuario; set => idUsuario = value; }
+        public long Id  { get => id; set => id = value; }
     }
 }
