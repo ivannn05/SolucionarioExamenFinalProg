@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace solucionarioExamenFinalProg.Sevicios
 {
+    /// <summary>
+    /// Clase implementacion encargada de contener la logica de los metodos encargados de mostrar los menus
+    /// </summary>
     internal class MenuImplementacion:MenuInterfaz
     {
         FicheroInterfaz fi = new FicheroImplementacion();
@@ -67,6 +70,9 @@ namespace solucionarioExamenFinalProg.Sevicios
             }
 
         }
+        /// <summary>
+        /// Metodo que mostrar el menu de Mostrar la Especialidad de Consultas para el metodo mostrarMenuConsultas
+        /// </summary>
         private void menuMostrarEspecialidadConsultas()
         {
             bool cerrarMenuEspecialidadesConsultas = false;
@@ -91,17 +97,17 @@ namespace solucionarioExamenFinalProg.Sevicios
                 case 1:
                     Console.WriteLine("\tAccedio a Psicología");
                     fi.ficheroLog("Accedio a Psicología");
-                    op.mostrarConsultas();
+                    op.mostrarConsultas(opc);
                     break;
                 case 2:
                     Console.WriteLine("\tAccedio a Traumatología");
                     fi.ficheroLog("Accedio a Traumatología");
-                    op.mostrarConsultas();
+                    op.mostrarConsultas(opc);
                     break;
                 case 3:
                     Console.WriteLine("\tAccedio a Fsioterapia");
                     fi.ficheroLog("Accedio a Fsioterapia");
-                    op.mostrarConsultas();
+                    op.mostrarConsultas(opc);
                     break;
                 default:
                     Console.WriteLine("\tEsta opcion no existe");
@@ -109,6 +115,9 @@ namespace solucionarioExamenFinalProg.Sevicios
                     break;
             }
         }
+        /// <summary>
+        /// Metodo que mostrar el menu de Imprimir la Especialidad de Consultas para el metodo mostrarMenuConsultas
+        /// </summary>
         private void menuImprimirEspecialidadConsultas()
         {
             bool cerrarMenuImprimirEspecialidadesConsultas = false;
@@ -133,17 +142,17 @@ namespace solucionarioExamenFinalProg.Sevicios
                 case 1:
                     Console.WriteLine("\tAccedio a Psicología");
                     fi.ficheroLog("Accedio a Psicología");
-                    fi.imprimirConsultas();
+                    fi.imprimirConsultas(opc);
                     break;
                 case 2:
                     Console.WriteLine("\tAccedio a Traumatología");
                     fi.ficheroLog("Accedio a Traumatología");
-                    fi.imprimirConsultas();
+                    fi.imprimirConsultas(opc);
                     break;
                 case 3:
                     Console.WriteLine("\tAccedio a Fsioterapia");
                     fi.ficheroLog("Accedio a Fsioterapia");
-                    fi.imprimirConsultas();
+                    fi.imprimirConsultas(opc);
                     break;
                 default:
                     Console.WriteLine("\tEsta opcion no existe");

@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace solucionarioExamenFinalProg.Sevicios
 {
+    /// <summary>
+    /// Clase emcargada de contener la logica de los metodos de fichero de la app
+    /// </summary>
     internal class FicheroImplementacion : FicheroInterfaz
     {
         public void ficheroLog(string mensaje)
@@ -15,7 +18,7 @@ namespace solucionarioExamenFinalProg.Sevicios
             try
             {
                 DateTime fechaHoy = DateTime.Now;
-            string ruta = $"C:\\Users\\csi23-iloposa\\Desktop\\log-{ fechaHoy.ToString("dd-MM-yyyy") }.txt";
+                string ruta = $"C:\\Users\\IVAN IMFORMATICA\\Desktop\\log-{ fechaHoy.ToString("dd-MM-yyyy") }.txt";
                 StreamWriter escribe = new StreamWriter(ruta,true);
                 escribe.WriteLine(mensaje);
                 escribe.Close();
@@ -32,7 +35,7 @@ namespace solucionarioExamenFinalProg.Sevicios
             try
             {
 
-                string ruta = "C:\\Users\\csi23-iloposa\\Desktop\\citas.txt";
+                string ruta = "C:\\Users\\IVAN IMFORMATICA\\Desktop\\citas.txt";
                 string[] fichero = File.ReadAllLines(ruta);
                 long id = 0;
                 foreach (string s in fichero)
@@ -59,47 +62,68 @@ namespace solucionarioExamenFinalProg.Sevicios
                 ficheroLog("No hay datos anteriores");}
         }
 
-        public void imprimirConsultas()
+        public void imprimirConsultas(int opcionEspecialidad)
         {
                 DateTime fechaHoy = DateTime.Today;
                 DateTime fechaUsu;
                 
-                string ruta = $"C:\\Users\\csi23-iloposa\\Desktop\\citasConAsistencia-{fechaHoy.ToString("ddMMyyyy")}.txt";
+                string ruta = $"C:\\Users\\IVAN IMFORMATICA\\Desktop\\citasConAsistencia-{fechaHoy.ToString("ddMMyyyy")}.txt";
                
 
-                    Console.WriteLine("Elija una fecha (dd-MM-yyyy)");
-            fechaUsu = Convert.ToDateTime(Console.ReadLine());
+                 
 
             try
             {
+              
+                string fecha;
+                do
+                {
+                    Console.WriteLine("Elija una fecha (dd-MM-yyyy)");
+                    fecha=Console.ReadLine();
+                    fechaUsu = Convert.ToDateTime(fecha);
+                    Console.WriteLine(fecha[2]);
+                    Console.WriteLine(fecha[5]);
+                    if (!fecha[2].Equals("-") && fecha[5].Equals("-"))
+                    {
+                        Console.WriteLine("Introduzca la fecha en el formato indicado,la introducida esta en otro formato");
+                    }
+                } while (!fecha[2].Equals("-") && fecha[5].Equals("-"));
+
                 bool aux = false;
                 StreamWriter sw = new StreamWriter(ruta, true);
                 foreach (CitasDto cita in Program.listaCitas)
                 {
-                    if (cita.FechaCita.Day == fechaUsu.Day & cita.FechaCita.Month == fechaUsu.Month & cita.FechaCita.Year == fechaUsu.Year & cita.AsistenciaCita.Equals("true"))
+                    
+
+                    if (cita.FechaCita.Day == fechaUsu.Day && cita.FechaCita.Month == fechaUsu.Month && cita.FechaCita.Year == fechaUsu.Year && cita.AsistenciaCita==true)
                     {
-                        if (cita.Especialidad.Equals("Psicologia"))
+                       
+                        if (cita.Especialidad.Equals("Psicología") && opcionEspecialidad==1)
                         {
-                            sw.Write($"Nombre completo: {cita.Nombre} {cita.Apellidos}, Hora:{cita.FechaCita.Hour}:{cita.FechaCita.Minute}");
+                             aux = true;
+                            sw.Write($"Nombre completo: {cita.Nombre} {cita.Apellidos}, Hora:{cita.FechaCita.Hour}:{cita.FechaCita.Minute} \n");
 
                         }
-                        else if (cita.Especialidad.Equals("Traumatologia"))
+                        else if (cita.Especialidad.Equals("Traumatología") && opcionEspecialidad == 2)
                         {
+                             
                             aux = true;
-                            sw.Write($"Nombre completo: {cita.Nombre} {cita.Apellidos}, Hora: {cita.FechaCita.Hour}:{cita.FechaCita.Minute}");
+                            sw.Write($"Nombre completo: {cita.Nombre} {cita.Apellidos}, Hora: {cita.FechaCita.Hour}:{cita.FechaCita.Minute} \n");
                         }
-                        else if (cita.Especialidad.Equals("Fisioterapia"))
+                        else if (cita.Especialidad.Equals("Fisioterapia") && opcionEspecialidad == 3)
                         {
+                             
                             aux = true;
-                            sw.Write($"Nombre completo: {cita.Nombre} {cita.Apellidos}, Hora: {cita.FechaCita.Hour}:{cita.FechaCita.Minute}");
+                            sw.Write($"Nombre completo: {cita.Nombre} {cita.Apellidos}, Hora: {cita.FechaCita.Hour}:{cita.FechaCita.Minute}  \n");
                         }
 
                     }
 
                 }
-                if (aux == true)
+                if (aux == false)
                 {
                     sw.Write("No hay datos disponibles para la especialidad y fecha disponibles");
+
                 }
                 sw.Close();
             }

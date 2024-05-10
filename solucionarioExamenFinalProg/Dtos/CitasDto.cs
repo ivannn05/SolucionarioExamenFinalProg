@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace solucionarioExamenFinalProg.Dtos
 {
     /// <summary>
-    /// Clase Dto la cual contiene los campos donde contendra los datos de los usuarios
+    /// Clase Dto la cual contiene los campos donde contendra los datos de las citas
     /// </summary>
     internal class CitasDto
     {
