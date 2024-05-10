@@ -11,5 +11,6 @@ namespace solucionarioExamenFinalProg.Sevicios
         public void ficheroLog(string message);
 
         public void cargaDeDatosPorFichero();
+        public void imprimirConsultas();
     }
 }

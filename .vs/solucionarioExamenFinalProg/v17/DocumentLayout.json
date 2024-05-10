@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\sevicios\\menuimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\sevicios\\menuimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\sevicios\\ficheroimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\sevicios\\ficheroimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\sevicios\\ficherointerfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\sevicios\\ficherointerfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\sevicios\\operativaimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\sevicios\\operativaimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\controladores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\controladores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\sevicios\\operativainterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\sevicios\\operativainterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\solucionarioexamenfinalprog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|c:\\users\\csi23-iloposa\\source\\repos\\ivannn05\\solucionarioexamenfinalprog\\solucionarioexamenfinalprog\\sevicios\\menuinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2729C3-4A29-41D0-A604-D1D161E7942E}|solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj|solutionrelative:solucionarioexamenfinalprog\\sevicios\\menuinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OperativaImplementacion.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\OperativaImplementacion.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Sevicios\\OperativaImplementacion.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\OperativaImplementacion.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Sevicios\\OperativaImplementacion.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OperativaInterfaz.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\OperativaInterfaz.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Sevicios\\OperativaInterfaz.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\OperativaInterfaz.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Sevicios\\OperativaInterfaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuImplementacion.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\MenuImplementacion.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Sevicios\\MenuImplementacion.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\MenuImplementacion.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Sevicios\\MenuImplementacion.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAADwv5MAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Dtos\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Dtos\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Dtos\\UsuarioDto.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Dtos\\UsuarioDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Controladores\\Program.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Controladores\\Program.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Controladores\\Program.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Controladores\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FicheroImplementacion.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\FicheroImplementacion.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Sevicios\\FicheroImplementacion.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\FicheroImplementacion.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Sevicios\\FicheroImplementacion.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAADwvz0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FicheroInterfaz.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\FicheroInterfaz.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Sevicios\\FicheroInterfaz.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\FicheroInterfaz.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Sevicios\\FicheroInterfaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "solucionarioExamenFinalProg.csproj",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\Source\\Repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\Source\\Repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\solucionarioExamenFinalProg.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-10T06:21:42.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuInterfaz.cs",
+              "DocumentMoniker": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\MenuInterfaz.cs",
+              "RelativeDocumentMoniker": "solucionarioExamenFinalProg\\Sevicios\\MenuInterfaz.cs",
+              "ToolTip": "C:\\Users\\csi23-iloposa\\source\\repos\\ivannn05\\SolucionarioExamenFinalProg\\solucionarioExamenFinalProg\\Sevicios\\MenuInterfaz.cs",
+              "RelativeToolTip": "solucionarioExamenFinalProg\\Sevicios\\MenuInterfaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:42.55Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

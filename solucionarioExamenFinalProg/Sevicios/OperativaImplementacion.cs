@@ -23,14 +23,14 @@ namespace solucionarioExamenFinalProg.Sevicios
 
             int resultado = numerosDni % 23;
 
-            char LetraRealCalculo = letras[resultado];          
+            char LetraRealCalculo = letras[resultado];
             char letraDniUsuario = dniUsu[dniUsu.Length - 1];
 
 
             String DNI;
 
 
-            if (LetraRealCalculo .Equals( letraDniUsuario))
+            if (LetraRealCalculo.Equals(letraDniUsuario))
             {
                 DNI = dniUsu;
             }
@@ -38,7 +38,7 @@ namespace solucionarioExamenFinalProg.Sevicios
             {
                 DNI = "";
             }
-            return DNI ;
+            return DNI;
         }
         public void registroDeLlegada()
         {
@@ -55,11 +55,47 @@ namespace solucionarioExamenFinalProg.Sevicios
                 {
                     Console.WriteLine("No dispone de ninguna cita previa para hoy");
                 }
-               
+
             }
 
         }
 
-       
+        public void mostrarConsultas()
+        {
+            DateTime fechaUsu = new DateTime();
+
+
+            Console.WriteLine("Elija una fecha (dd-MM-yyyy)");
+            fechaUsu = Convert.ToDateTime(Console.ReadLine());
+
+
+
+            foreach (UsuarioDto consulta in Program.listaUsuarios)
+            {
+                if (consulta.FechaCita.Day == fechaUsu.Day & consulta.FechaCita.Month == fechaUsu.Month & consulta.FechaCita.Year == fechaUsu.Year)
+                {
+                    if (consulta.Especialidad.Equals("Psicologia"))
+                    {
+                        Console.WriteLine($"Nombre completo: {consulta.Nombre} {consulta.Apellidos}, Hora: {consulta.FechaCita.Hour}:{consulta.FechaCita.Minute}");
+                    }
+                    else if (consulta.Especialidad.Equals("Traumatologia"))
+                    {
+                        Console.WriteLine($"Nombre completo: {consulta.Nombre} {consulta.Apellidos}, Hora: {consulta.FechaCita.Hour}:{consulta.FechaCita.Minute}");
+                    }
+                    else if (consulta.Especialidad.Equals("Fisioterapia"))
+                    {
+                        Console.WriteLine($"Nombre completo: {consulta.Nombre} {consulta.Apellidos}, Hora: {consulta.FechaCita.Hour}:{consulta.FechaCita.Minute}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("No hay datos disponibles para la especialidad y fecha indicada");
+                    }
+                }
+
+
+
+
+            }
+        }
     }
 }

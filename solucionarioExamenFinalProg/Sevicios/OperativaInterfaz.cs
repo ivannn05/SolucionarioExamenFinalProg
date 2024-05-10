@@ -10,5 +10,6 @@ namespace solucionarioExamenFinalProg.Sevicios
     {
         public string validacionDeDNI();
         public void registroDeLlegada();
+        public void mostrarConsultas();
     }
 }

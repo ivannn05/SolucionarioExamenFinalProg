@@ -56,5 +56,10 @@ namespace solucionarioExamenFinalProg.Sevicios
             }
             catch (Exception e) { Console.WriteLine("No hay datos anteriores"); }
         }
+
+        public void imprimirConsultas()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
