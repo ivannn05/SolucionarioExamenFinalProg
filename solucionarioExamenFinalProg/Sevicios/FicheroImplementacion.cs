@@ -18,7 +18,7 @@ namespace solucionarioExamenFinalProg.Sevicios
             try
             {
                 DateTime fechaHoy = DateTime.Now;
-                string ruta = $"C:\\Users\\IVAN IMFORMATICA\\Desktop\\log-{ fechaHoy.ToString("dd-MM-yyyy") }.txt";
+                string ruta = $"C:\\Users\\csi23-iloposa\\Desktop\\log-{ fechaHoy.ToString("dd-MM-yyyy") }.txt";
                 StreamWriter escribe = new StreamWriter(ruta,true);
                 escribe.WriteLine(mensaje);
                 escribe.Close();
@@ -35,7 +35,7 @@ namespace solucionarioExamenFinalProg.Sevicios
             try
             {
 
-                string ruta = "C:\\Users\\IVAN IMFORMATICA\\Desktop\\citas.txt";
+                string ruta = "C:\\Users\\csi23-iloposa\\Desktop\\citas.txt";
                 string[] fichero = File.ReadAllLines(ruta);
                 long id = 0;
                 foreach (string s in fichero)
@@ -45,7 +45,7 @@ namespace solucionarioExamenFinalProg.Sevicios
                     cita.Dni = campos[0];
                     cita.Nombre = campos[1];
                     cita.Apellidos = campos[2];
-                    cita.Especialidad = campos[3];
+                    cita.Especialidad = campos[3].Trim();
                     cita.FechaCita = Convert.ToDateTime(campos[4]);
 
                     if (campos[5].Equals(""))
@@ -65,29 +65,29 @@ namespace solucionarioExamenFinalProg.Sevicios
         public void imprimirConsultas(int opcionEspecialidad)
         {
                 DateTime fechaHoy = DateTime.Today;
-                DateTime fechaUsu;
-                
-                string ruta = $"C:\\Users\\IVAN IMFORMATICA\\Desktop\\citasConAsistencia-{fechaHoy.ToString("ddMMyyyy")}.txt";
                
-
-                 
+                
+                string ruta = $"C:\\Users\\csi23-iloposa\\Desktop\\citasConAsistencia-{fechaHoy.ToString("ddMMyyyy")}.txt";
+               
 
             try
             {
-              
-                string fecha;
-                do
+
+                DateTime fechaUsu = new DateTime();
+                try
                 {
-                    Console.WriteLine("Elija una fecha (dd-MM-yyyy)");
-                    fecha=Console.ReadLine();
-                    fechaUsu = Convert.ToDateTime(fecha);
-                    Console.WriteLine(fecha[2]);
-                    Console.WriteLine(fecha[5]);
-                    if (!fecha[2].Equals("-") && fecha[5].Equals("-"))
-                    {
-                        Console.WriteLine("Introduzca la fecha en el formato indicado,la introducida esta en otro formato");
-                    }
-                } while (!fecha[2].Equals("-") && fecha[5].Equals("-"));
+
+
+                    Console.WriteLine("Elija una fecha (dd-MM-yyyy):");
+                    fechaUsu = Convert.ToDateTime(Console.ReadLine());
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("La fecha no esta en un formato correcto");
+                    ficheroLog("La fecha no esta en un formato correcto");
+                    imprimirConsultas(opcionEspecialidad);
+                }
 
                 bool aux = false;
                 StreamWriter sw = new StreamWriter(ruta, true);

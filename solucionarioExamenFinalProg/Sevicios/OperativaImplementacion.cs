@@ -16,6 +16,7 @@ namespace solucionarioExamenFinalProg.Sevicios
     /// </summary>
     internal class OperativaImplementacion : OperativaInterfaz
     {
+        FicheroInterfaz fi = new FicheroImplementacion();
         public string validacionDeDNI()
         {
             String DNI;
@@ -42,6 +43,7 @@ namespace solucionarioExamenFinalProg.Sevicios
                 if (!LetraRealCalculo.Equals(letraDniUsuario))
                 {
                     Console.WriteLine("\tEscriba su DNI correctamente,el escrito no existe");
+                   fi.ficheroLog("Escriba su DNI correctamente, el escrito no existe");
                 }
 
             } while(!LetraRealCalculo.Equals(letraDniUsuario));
@@ -78,22 +80,37 @@ namespace solucionarioExamenFinalProg.Sevicios
             }
         }
 
-        public void mostrarConsultas(int opcionMenuEspecialidad)
+        /*
+        //Este bucle debe de estar en los metodos mostrar consultas y imprimir consultas
+       
+*/
+public void mostrarConsultas(int opcionMenuEspecialidad)
         {
             DateTime fechaUsu = new DateTime();
+            try
+            {
+               
+
+                Console.WriteLine("Elija una fecha (dd-MM-yyyy):");
+                fechaUsu = Convert.ToDateTime(Console.ReadLine());
+
+            }catch(Exception ex)
+            {
+                Console.WriteLine("La fecha no esta en un formato correcto");
+                fi.ficheroLog("La fecha no esta en un formato correcto");
+                mostrarConsultas(opcionMenuEspecialidad);
+                
+            }
 
 
-            Console.WriteLine("Elija una fecha (dd-MM-yyyy):");
-            fechaUsu = Convert.ToDateTime(Console.ReadLine());
-
-
-            bool aux = false;
+    bool aux = false;
             foreach (CitasDto consulta in Program.listaCitas)
             {
                
+
                 if (consulta.FechaCita.Day == fechaUsu.Day && consulta.FechaCita.Month == fechaUsu.Month && consulta.FechaCita.Year == fechaUsu.Year)
                 {
-                    
+                   
                     
                     if (consulta.Especialidad.Equals("Psicología") & opcionMenuEspecialidad==1)
                     {
@@ -120,7 +137,8 @@ namespace solucionarioExamenFinalProg.Sevicios
             }
             if (aux == false)
             {
-                Console.WriteLine("No hay datos disponibles para la especialidad y fecha indicada");
+                Console.WriteLine("La fecha no esta en un formato correcto");
+                fi.ficheroLog("La fecha no esta en un formato correcto");
             }
         }
     }
