@@ -4,7 +4,7 @@ using solucionarioExamenFinalProg.Sevicios;
 namespace solucionarioExamenFinalProg.Controladores
 {
     /// <summary>
-    /// Clase principal de la aplicacion y clae que se lanzará primero
+    /// Clase principal de la aplicacion y clase que se lanzará primero
     /// </summary>
     class Program
     {
@@ -19,7 +19,11 @@ namespace solucionarioExamenFinalProg.Controladores
             {
                 fi.cargaDeDatosPorFichero();
             }
-            catch (Exception ex) { Console.WriteLine("Ocurrio un problema en la carga del fichero"); }
+            catch (Exception ex) {
+                Console.WriteLine("Ocurrio un problema en la carga del fichero");
+                fi.ficheroLog("Ocurrio un problema en la carga del fichero");
+                      fi.ficheroLog($"Error:{ex}");  
+            }
 
 
 
@@ -69,6 +73,7 @@ namespace solucionarioExamenFinalProg.Controladores
                 {
                     Console.WriteLine("Ocurrio un problema en la aplicación");
                     fi.ficheroLog("Ocurrio un problema en la aplicación");
+                    fi.ficheroLog($"Error:{ex}");
 
                 }
             }

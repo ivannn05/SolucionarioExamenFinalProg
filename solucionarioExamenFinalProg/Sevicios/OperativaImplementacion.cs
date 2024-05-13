@@ -12,7 +12,7 @@ namespace solucionarioExamenFinalProg.Sevicios
 {
 
     /// <summary>
-    /// Clase implementacion encargada de contener la logica de los metodos del fucnionamiento de la app
+    /// Clase implementacion encargada de contener la lógica de los métodos del fucnionamiento de la app
     /// </summary>
     internal class OperativaImplementacion : OperativaInterfaz
     {
@@ -79,11 +79,6 @@ namespace solucionarioExamenFinalProg.Sevicios
                 Console.WriteLine("No dispone de ninguna cita previa para hoy");
             }
         }
-
-        /*
-        //Este bucle debe de estar en los metodos mostrar consultas y imprimir consultas
-       
-*/
 public void mostrarConsultas(int opcionMenuEspecialidad)
         {
             DateTime fechaUsu = new DateTime();
@@ -98,6 +93,7 @@ public void mostrarConsultas(int opcionMenuEspecialidad)
             {
                 Console.WriteLine("La fecha no esta en un formato correcto");
                 fi.ficheroLog("La fecha no esta en un formato correcto");
+                fi.ficheroLog($"Error:{ex}");
                 mostrarConsultas(opcionMenuEspecialidad);
                 
             }
@@ -137,8 +133,7 @@ public void mostrarConsultas(int opcionMenuEspecialidad)
             }
             if (aux == false)
             {
-                Console.WriteLine("La fecha no esta en un formato correcto");
-                fi.ficheroLog("La fecha no esta en un formato correcto");
+                Console.WriteLine("No dispone de ninguna cita previa para hoy");
             }
         }
     }

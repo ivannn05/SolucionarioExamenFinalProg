@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace solucionarioExamenFinalProg.Sevicios
 {
     /// <summary>
-    /// Clase emcargada de contener la logica de los metodos de fichero de la app
+    /// Clase encargada de contener la lógica de los métodos de fichero de la app
     /// </summary>
     internal class FicheroImplementacion : FicheroInterfaz
     {
@@ -25,7 +25,7 @@ namespace solucionarioExamenFinalProg.Sevicios
             }
             catch (Exception e)
             {
-                Console.WriteLine("Ocurrio un error en el fichero log"+e);
+                Console.WriteLine("Ocurrio un error en el fichero log");
 
             }
         }
@@ -59,7 +59,9 @@ namespace solucionarioExamenFinalProg.Sevicios
                 }
             }
             catch (Exception e) { Console.WriteLine("No hay datos anteriores");
-                ficheroLog("No hay datos anteriores");}
+                ficheroLog("No hay datos anteriores");
+                ficheroLog($"Error:{e}");
+            }
         }
 
         public void imprimirConsultas(int opcionEspecialidad)
@@ -86,6 +88,7 @@ namespace solucionarioExamenFinalProg.Sevicios
                 {
                     Console.WriteLine("La fecha no esta en un formato correcto");
                     ficheroLog("La fecha no esta en un formato correcto");
+                    ficheroLog($"Error:{ex}");
                     imprimirConsultas(opcionEspecialidad);
                 }
 
@@ -127,10 +130,11 @@ namespace solucionarioExamenFinalProg.Sevicios
                 }
                 sw.Close();
             }
-            catch (IOException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("Ha habido un error al guardar los datos de las consultas");
                 ficheroLog("Ha habido un error al guardar los datos de las consultas");
+                ficheroLog($"Error:{ex}");
             }
         }
     }

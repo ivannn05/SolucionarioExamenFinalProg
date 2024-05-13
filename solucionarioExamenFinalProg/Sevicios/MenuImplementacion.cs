@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace solucionarioExamenFinalProg.Sevicios
 {
     /// <summary>
-    /// Clase implementacion encargada de contener la logica de los metodos encargados de mostrar los menus
+    /// Clase implementacion encargada de contener la logica de los métodos encargados de mostrar los menús
     /// </summary>
     internal class MenuImplementacion:MenuInterfaz
     {
@@ -71,7 +71,7 @@ namespace solucionarioExamenFinalProg.Sevicios
 
         }
         /// <summary>
-        /// Metodo que mostrar el menu de Mostrar la Especialidad de Consultas para el metodo mostrarMenuConsultas
+        /// Metodo que mostrar el menú de Mostrar la Especialidad de Consultas para el metodo mostrarMenuConsultas
         /// </summary>
         private void menuMostrarEspecialidadConsultas()
         {
@@ -116,7 +116,7 @@ namespace solucionarioExamenFinalProg.Sevicios
             }
         }
         /// <summary>
-        /// Metodo que mostrar el menu de Imprimir la Especialidad de Consultas para el metodo mostrarMenuConsultas
+        /// Metodo que mostrar el menú de Imprimir la Especialidad de Consultas para el metodo mostrarMenuConsultas
         /// </summary>
         private void menuImprimirEspecialidadConsultas()
         {

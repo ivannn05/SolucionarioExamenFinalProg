@@ -11,7 +11,7 @@ namespace solucionarioExamenFinalProg.Dtos
     /// </summary>
     internal class CitasDto
     {
-        //Campos
+        //Atributos
         long id;
         string dni = "aaaa";
         string nombre = "aaaa";

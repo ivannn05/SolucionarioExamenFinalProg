@@ -21,7 +21,7 @@ namespace solucionarioExamenFinalProg.Sevicios
         /// </summary>
         public void registroDeLlegada();
         /// <summary>
-        /// Metodo encargado de mostrar el listado de las consultas de una espcialidad especifica
+        /// Metodo encargado de mostrar el listado de las consultas de una espcialidad específica
         /// </summary>
         /// <param name="opcioEspecialidad"></param>
         /// opcioEspecialidad=Es la opcion de la especialidad del menu de especialidades
